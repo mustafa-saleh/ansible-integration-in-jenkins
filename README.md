@@ -119,7 +119,7 @@ flowchart TB
 
 Before running this automation, make sure you have the following in place:
 
-- ✅ A **Jenkins server** up and running, with the required plugins installed. This demo reuses the Jenkins setup from [demo-module-8-build-automation-and-ci-cd-with-jenkins](https://github.com/mustafa-saleh/demo-module-8-build-automation-and-ci-cd-with-jenkins), plus two additional plugins:
+- ✅ A **Jenkins server** up and running, with the required plugins installed. This demo reuses the Jenkins setup from [build-automation-and-ci-cd-with-jenkins](https://github.com/mustafa-saleh/build-automation-and-ci-cd-with-jenkins), plus two additional plugins:
   - **SSH Agent Plugin** — lets a pipeline stage use a stored SSH credential to authenticate outbound `scp`/`ssh` commands, see [SSH Agent Plugin docs](https://plugins.jenkins.io/ssh-agent/)
   - **SSH Pipeline Steps Plugin** — provides the `sshScript`/`sshCommand` pipeline steps used to run commands and scripts on a remote host over SSH, see [SSH Pipeline Steps Plugin docs](https://plugins.jenkins.io/ssh-steps/)
 - ✅ A second **DigitalOcean droplet** to act as the dedicated **Ansible Control Node**, reachable over SSH from the Jenkins server

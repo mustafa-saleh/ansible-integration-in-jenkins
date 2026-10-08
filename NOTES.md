@@ -1365,7 +1365,7 @@ Create 2 EC2 instances (ansible managed-nodes) from AWS console with new key-pai
 
 ## 22 - Project: Run Ansible from Jenkins Pipeline - Part 2
 
-Setup the jenkins server according to https://github.com/mustafa-saleh/demo-module-8-build-automation-and-ci-cd-with-jenkins & install the "ssh agent" plugin that will be used to the copy the files to the ansible control-node.
+Setup the jenkins server according to https://github.com/mustafa-saleh/build-automation-and-ci-cd-with-jenkins & install the "ssh agent" plugin that will be used to the copy the files to the ansible control-node.
 
 Jenkins needs the private key of the ansible server to copy the files to the ansible control-node. Add credentials in jenkins of type "SSH Username with private key" with the following details:
 
